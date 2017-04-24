@@ -13,6 +13,12 @@
   		<%for(i=0; i<movies.length; i++){%>
   			<div class="poster">
     			<img src="/images/<%=movies[i].poster%>" class="img-responsive">
+
+
+						<div class="poster-info-overlay">
+							<h3><%=movies[i].title%></h3>
+							<h5>view more <i class="fa fa-arrow"></i></h5>
+						</div>
     		</div>
     	<%}%>
   	
