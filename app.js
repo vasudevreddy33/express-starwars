@@ -21,6 +21,6 @@ app.get("/star_wars/:episode_number?", routes.movies_single);
 
 app.get('*', routes.not_found);
 
-app.listen(3000, function(){
-	console.log("Server Started");
+app.listen(process.env.PORT || 3000, function(){
+	console.log("Server Started on PORT 3000");
 });
