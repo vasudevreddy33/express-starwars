@@ -387,7 +387,7 @@ Media Queries / Responsive Styles
 	}
 }
 @media (max-width: 767px) {
-	#hero-image-single #hero-title, #hero-image-notFound #hero-title {
+	#hero-image-single #hero-title, #hero-image-not-found #hero-title {
 		width: 75%;
 	}	
 }
@@ -437,7 +437,7 @@ Media Queries / Responsive Styles
 
 /* Decrease the height of the hero images on mobile devices */
 @media (max-width: 767px) {
-	#hero-image, #hero-image-single, #hero-image-notFound {
+	#hero-image, #hero-image-single, #hero-image-not-found {
 		height: 400px;
 	}
 }
@@ -459,7 +459,7 @@ Media Queries / Responsive Styles
 Page Not Found Template Styles
 -------------------------------- */
 
-#hero-image-notFound {
+#hero-image-not-found {
 	height: 550px;
 	width: 100%;
 	background-color: #444;
@@ -470,7 +470,7 @@ Page Not Found Template Styles
 	position: relative;
 }
 
-#hero-image-notFound::before {
+#hero-image-not-found::before {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -480,7 +480,7 @@ Page Not Found Template Styles
 	content: "";
 }
 
-#hero-image-notFound #hero-title {
+#hero-image-not-found #hero-title {
 	position: absolute;
 	background-color: #fff;
 	padding: 25px 60px;
