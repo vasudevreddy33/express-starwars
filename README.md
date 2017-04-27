@@ -1,2 +1,3 @@
-# express-starwars
-May the force be with you
+# express-movie
+
+Basic ExpressJS app on Starwars
