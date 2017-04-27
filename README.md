@@ -1,3 +1,3 @@
-# express-movie
+# express-starwars
 
 Basic ExpressJS app on Starwars
